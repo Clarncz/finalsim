@@ -11,6 +11,7 @@ export default {
         "./resources/**/*.js",
         "./resources/**/*.vue",
         'node_modules/preline/dist/*.js',
+        
     ],
 
     theme: {
@@ -21,5 +22,6 @@ export default {
         },
     },
 
-    plugins: [require('preline/plugin'),],
+    plugins: [require('preline/plugin'), require("@tailwindcss/forms")],
+    darkMode: "class",
 };
