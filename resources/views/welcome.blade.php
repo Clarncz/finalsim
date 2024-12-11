@@ -12,7 +12,7 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
-        <section class="bg-gray-50 dark:bg-gray-900">
+        <section class="bg-cover bg-center bg-fixed sm:bg-cover md:bg-cover lg:bg-cover min-h-screen " style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/035/941/144/small_2x/ai-generated-inventory-goods-warehouse-background-photo.jpg'); background-size: cover; background-position: center;">
             <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
                 <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
                     <x-application-logo class="block h-20 w-auto fill-current text-gray-800 dark:text-gray-200" />

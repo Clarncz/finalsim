@@ -5,25 +5,34 @@
         </h2>
     </x-slot>
 
-    <div class="py-12">
+    <!-- Full-Screen Background Image -->
+    <div class="bg-cover bg-center bg-fixed min-h-screen" 
+         style="background-image: url('https://wallpapers.com/images/featured/profile-background-b5vedq7mz8mjvslu.jpg');">
+        
+        <!-- Content Container -->
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 space-y-6">
-            <div class="p-4 sm:p-8 bg-white dark:bg-gray-800 shadow sm:rounded-lg">
+            
+            <!-- Update Profile Information Form -->
+            <div class="p-6 bg-white/80 dark:bg-gray-800/80 shadow-xl rounded-lg">
                 <div class="max-w-xl">
                     @include('profile.partials.update-profile-information-form')
                 </div>
             </div>
 
-            <div class="p-4 sm:p-8 bg-white dark:bg-gray-800 shadow sm:rounded-lg">
+            <!-- Update Password Form -->
+            <div class="p-6 bg-white/80 dark:bg-gray-800/80 shadow-xl rounded-lg">
                 <div class="max-w-xl">
                     @include('profile.partials.update-password-form')
                 </div>
             </div>
 
-            <div class="p-4 sm:p-8 bg-white dark:bg-gray-800 shadow sm:rounded-lg">
+            <!-- Delete User Form -->
+            <div class="p-6 bg-white/80 dark:bg-gray-800/80 shadow-xl rounded-lg">
                 <div class="max-w-xl">
                     @include('profile.partials.delete-user-form')
                 </div>
             </div>
+
         </div>
     </div>
 </x-app-layout>
